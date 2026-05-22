@@ -1,0 +1,48 @@
+:root {
+  --app-bg: #f6f8fb;
+  --app-border: #d8e0ea;
+  --app-ink: #172033;
+}
+
+body {
+  background: var(--app-bg);
+  color: var(--app-ink);
+}
+
+.page-shell {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 24px 16px 48px;
+}
+
+.toolbar {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.panel {
+  background: #fff;
+  border: 1px solid var(--app-border);
+  border-radius: 8px;
+  padding: 18px;
+}
+
+.table td, .table th {
+  vertical-align: middle;
+}
+
+.form-actions {
+  display: flex;
+  gap: 8px;
+  justify-content: flex-end;
+}
+
+.status-pill {
+  border-radius: 999px;
+  padding: 4px 10px;
+  font-size: 12px;
+  font-weight: 700;
+}
